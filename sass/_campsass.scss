@@ -1,0 +1,56 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+body, h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    //text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  }
+  h1 {
+    line-height: 5em;
+  }
+}
+
+.slide {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  border: none;
+  padding: 2em 6%;
+  >h1, h2 {
+    font-weight: 700;
+    //text-transform: uppercase;
+    font-size: 3.5em;
+    text-align: center;
+  }
+  .credits, .twitter {
+    //text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+    position: absolute;
+    bottom: 2em;
+    line-height: 1.1em;
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  .twitter {
+    right: 6%;
+    text-align: right;
+    small {
+      font-size: 0.9em;
+    }
+  }
+  .centered-list {
+    text-align: center;
+  }
+}
+
+.credits {
+
+}
