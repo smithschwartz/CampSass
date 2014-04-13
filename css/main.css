@@ -690,11 +690,26 @@ section > header.slide > h1 {
   .image-slide.image-slide8 {
     background: url("../images/andy-goldworthy-rain-shadow.jpg") no-repeat 0 0;
     background-size: cover; }
+  .image-slide.image-slide8-blur {
+    background: url("../images/andy-goldworthy-rain-shadow-blur.jpg") no-repeat 0 0;
+    background-size: cover; }
   .image-slide.image-slide9 {
     background: url("../images/goldsworthy-leaves.jpg") no-repeat 0 0;
     background-size: cover; }
+  .image-slide.image-slide9-blur {
+    background: url("../images/goldsworthy-leaves-blur.jpg") no-repeat 0 0;
+    background-size: cover; }
   .image-slide.image-slide10 {
     background: url("../images/elephant.jpg") no-repeat 0 0;
+    background-size: cover; }
+  .image-slide.image-slide10-blur {
+    background: url("../images/elephant-blur.jpg") no-repeat 0 0;
+    background-size: cover; }
+  .image-slide.image-slide11 {
+    background: url("../images/lee-bontecou.jpg") no-repeat 0 0;
+    background-size: cover; }
+  .image-slide.image-slide11-blur {
+    background: url("../images/lee-bontecou-blur.jpg") no-repeat 0 0;
     background-size: cover; }
 
 body, html {
@@ -708,8 +723,6 @@ body, h1, h2 {
   font-family: 'Roboto', sans-serif; }
   body h1, body h2, h1 h1, h1 h2, h2 h1, h2 h2 {
     font-family: 'Roboto Condensed', sans-serif; }
-  body h1, h1 h1, h2 h1 {
-    line-height: 5em; }
 
 .slide {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);

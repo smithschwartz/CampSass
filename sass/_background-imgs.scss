@@ -65,12 +65,32 @@
     background: url('../images/andy-goldworthy-rain-shadow.jpg') no-repeat 0 0;
     background-size: cover;
   }
+  &.image-slide8-blur {
+    background: url('../images/andy-goldworthy-rain-shadow-blur.jpg') no-repeat 0 0;
+    background-size: cover;
+  }
   &.image-slide9 {
     background: url('../images/goldsworthy-leaves.jpg') no-repeat 0 0;
     background-size: cover;
   }
+  &.image-slide9-blur {
+    background: url('../images/goldsworthy-leaves-blur.jpg') no-repeat 0 0;
+    background-size: cover;
+  }
   &.image-slide10 {
     background: url('../images/elephant.jpg') no-repeat 0 0;
+    background-size: cover;
+  }
+  &.image-slide10-blur {
+    background: url('../images/elephant-blur.jpg') no-repeat 0 0;
+    background-size: cover;
+  }
+  &.image-slide11 {
+    background: url('../images/lee-bontecou.jpg') no-repeat 0 0;
+    background-size: cover;
+  }
+  &.image-slide11-blur {
+    background: url('../images/lee-bontecou-blur.jpg') no-repeat 0 0;
     background-size: cover;
   }
 }
