@@ -21,6 +21,9 @@ body, h1, h2 {
     font-weight: 700;
     font-size: 3.5em;
     text-align: center;
+    span {
+      letter-spacing: 0.04em;
+    }
   }
   .credits, .twitter {
     position: absolute;
@@ -32,6 +35,8 @@ body, h1, h2 {
   li {
     margin: 0;
     padding: 0;
+    font-size: 1em;
+    font-weight: 200;
   }
   .twitter {
     right: 6%;
